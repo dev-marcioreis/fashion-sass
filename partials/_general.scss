@@ -3,11 +3,10 @@ html {
     scroll-padding-top: 8rem;
 }
 body {
-    background: $gradient;
+    background: $white-color;
     color: $text-color;
     font-size: 1.6rem;
     font-weight: 400;
-    height: 100vh;
 
     &::-webkit-scrollbar{
         width: .5rem;
@@ -18,7 +17,7 @@ body {
      }
     
      &::-webkit-scrollbar-thumb{
-        background: $orange-color;
+        background: $gradient;
      }
 }
 .container {
