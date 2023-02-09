@@ -1,12 +1,13 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 8rem;
-    overflow-x: hidden;
 }
 body {
-    background: $white-color;
+    background: $gradient;
     color: $black-color;
-    line-height: 1.5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    height: 100vh;
 
     &::-webkit-scrollbar{
         width: .5rem;
@@ -40,13 +41,22 @@ body {
     }
 }
 img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 h1, h2, h3, h4, h5 {
     line-height: 1.2;
+    font-weight: 500;
 }
 section {
-    padding: 3rem 1rem;
+    padding: 5rem 5rem;
+    overflow: hidden;
+}
+a {
+    color: inherit;
+}
+p {
+    line-height: 3rem;
 }
 
 
