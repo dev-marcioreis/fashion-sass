@@ -8,8 +8,19 @@ openMenuBtn.addEventListener('click', () => {
     closeMenuBtn.style.display = 'block'
 })
 
-closeMenuBtn.addEventListener('click', () => {
+const closeMenu = () => {
     menu.classList.remove('active')
-    closeMenuBtn.style.display = 'none'
     openMenuBtn.style.display = 'block'
-})
+    closeMenuBtn.style.display = 'none'
+}
+
+closeMenuBtn.addEventListener('click', closeMenu)
+
+
+if(window.innerWidth < 1024) {
+    document.querySelectorAll('.nav__list .nav__link').forEach(headerMenu => {
+        headerMenu.addEventListener('click', () => {
+            closeMenu()
+        })
+    })
+}
