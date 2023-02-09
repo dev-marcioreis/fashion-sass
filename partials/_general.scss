@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+    overflow-x: hidden;
+}
+body {
+    background: $white-color;
+    color: $black-color;
+    line-height: 1.5;
+
+    &::-webkit-scrollbar{
+        width: .5rem;
+     }
+    
+     &::-webkit-scrollbar-track{
+        background: $black-color;
+     }
+    
+     &::-webkit-scrollbar-thumb{
+        background: $orange-color;
+     }
+}
+.container {
+    width: $cont-large;
+    margin: 0 auto;
+ }
+.headers {
+    text-align: center;
+    margin-block-end: 3rem;
+ 
+    span{
+       font-size: 1.7rem;
+       letter-spacing: -1px;
+       color: $orange-color;
+       font-weight: 300;
+    }
+ 
+    h3{
+       font-size: 2rem;
+    }
+}
+img {
+    width: 100%;
+}
+h1, h2, h3, h4, h5 {
+    line-height: 1.2;
+}
+section {
+    padding: 3rem 1rem;
+}
+
+
+/*==========Media Query 1024px==========*/
+@media (max-width: 1024px) {
+    .container {
+        width: $cont-medium;
+    }
+}
+
+
+
+
+
+
