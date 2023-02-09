@@ -1,6 +1,8 @@
 /*==========Google Fonts==========*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
 /*==========Reset==========*/
 *, *::after, *::before {
     margin: 0;
@@ -30,6 +32,7 @@ $transparent-color: rgba(0, 0, 0, 0);
 $btn-gradient: linear-gradient(to bottom, hsl(0, 100%, 66%), hsl(11, 100%, 61%));
 $gradient: linear-gradient(to bottom, hsl(33, 95%, 78%), hsl(358, 100%, 80%));
 $shadow: 0 4px 20px hsla(0, 0%, 4%, 0.103);
-$shadow-1: 0 1px 4px hsla(0, 0%, 0%, 0.2);
-$shadow-2: 0 1px 2px hsla(0, 0%, 0%, 0.2);
+$shadow1: 0 1px 4px hsla(0, 0%, 0%, 0.2);
+$shadow2: 0 1px 2px hsla(0, 0%, 0%, 0.2);
 $transition: all 400ms ease;
+$font-logo: 'Nunito', sans-serif;;

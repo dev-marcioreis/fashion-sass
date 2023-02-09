@@ -1,0 +1,84 @@
+.header {
+    margin-block-end: 4rem;
+}
+.header .navbar {
+    position: relative;
+    padding: .6rem 0;
+    z-index: 1;
+}
+.header .navbar .container {
+    justify-content: space-between;
+}
+.header .navbar .container .logo {
+    padding: .5rem;
+}
+.header .navbar .container .logo img {
+    position: absolute;
+    object-fit: contain;
+    bottom: 2.3rem;
+    left: 7.6rem;
+    width: 2rem;
+    transition: $transition;
+}
+.header .navbar .container .logo:hover img {
+    transform: scale(1.4);
+}
+.header .navbar .container .logo span {
+    font-family: $font-logo;
+    text-transform: capitalize;
+    color: $white-color;
+    font-size: 2rem;
+    font-weight: 1000;
+    letter-spacing: 1px;
+}
+.header .navbar .container .nav__list .nav__link {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: $white-color;
+    text-transform: capitalize;
+    transition: $transition;
+}
+.header .navbar .container .nav__list .nav__link:hover {
+    color: $primary-color;
+}
+.header .navbar .container .nav__list .nav__link-user {
+    display: none;
+}
+.header .navbar .container .icons .icon {
+    position: relative;
+    justify-content: center;
+    font-size: 1.7rem;
+    padding: .5rem;
+    color: $white-color;
+    cursor: pointer;
+    transition: $transition;
+}
+.header .navbar .container .icons .icon:hover {
+    color: $primary-color;
+}
+.header .navbar .container .icons .icon:first-child {
+    margin-right: 2rem;
+}
+.header .navbar .container .icons .icon small {
+    position: absolute;
+    top: .3rem;
+    right: .4rem;
+    display: block;
+    width: .6rem;
+    height: .6rem;
+    border-radius: 50%;
+    background: $primary-color;
+    border: 1px solid $white-color;
+    transition: $transition;
+}
+.header .navbar .container .icons .icon:hover small {
+    background: $white-color;
+    border: 1px solid $primary-color;
+}
+.header .toggle__menu, .header .toggle__close {
+    display: none;
+}
+
+
