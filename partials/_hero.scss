@@ -4,7 +4,6 @@
 
     .container {
         height: 100%;
-        justify-content: flex-start;
 
         .hero-info {
             text-align: center;
@@ -53,6 +52,83 @@
             position: relative;
             right: 20rem;
             bottom: 0;
+        }
+    }
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 1024px) {
+    .hero {
+    
+        .container {
+           flex-direction: column;
+    
+            .hero-info {
+                margin-block-start: 2rem;
+                margin-left: 0;
+        
+                .hero-subtitle {
+                    font-size: 1.2rem;
+                }
+        
+                .hero-title {
+                    font-size: 5rem;
+                    letter-spacing: -.1rem;
+                    margin-block-start: -.5rem;
+                }
+        
+                .hero-text {
+                    font-size: 1.2rem;
+                    margin-block-start: -4.5rem;
+                    margin-block-end: .5rem;
+                }
+        
+                .btn {
+                    font-size: .9rem;
+                    letter-spacing: 1px;
+                }
+            }
+    
+            .hero-image {
+                right: 0rem;
+            }
+        }
+    }
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 768px) {
+    .hero {
+    
+        .container {
+            flex-direction: column;
+
+            .hero-info {
+                margin-block-start: 4rem;
+        
+                .hero-subtitle {
+                    font-size: 1.1rem;
+                }
+        
+                .hero-title {
+                    font-size: 4.5rem;
+                    margin-block-start: -.4rem;
+                }
+        
+                .hero-text {
+                    font-size: 1.1rem;
+                    margin-block-start: -4rem;
+                    margin-block-end: .2rem;
+                }
+        
+            }
+    
+            .hero-image {
+                position: absolute;
+                bottom: 7rem;
+            }
         }
     }
 }
