@@ -58,6 +58,24 @@ a {
 p {
     line-height: 3rem;
 }
+.btn {
+    display: inline-block;
+    margin-block-start: 1rem;
+    color:$white-color;
+    font-weight: 700;
+    background: $text-color;
+    border-radius: .2rem;
+    font-size: 1.4rem;
+    padding: .6rem 2rem;
+    box-shadow: $shadow;
+    cursor: pointer;
+    transition: $transition;
+ 
+    &:hover{
+       background: $transparent-color;
+       transform: scale(1.04);
+    }
+ }
 
 
 /*==========Media Query 1024px==========*/
