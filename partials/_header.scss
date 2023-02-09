@@ -16,27 +16,23 @@
             justify-content: space-between;
 
             .logo {
-                padding: .5rem;
 
                 &:hover img {
                     transform: scale(1.4);
                 }
         
                 img {
-                    position: absolute;
-                    object-fit: contain;
-                    bottom: 2.1rem;
-                    left: 7.6rem;
-                    width: 2rem;
+                    position: relative;
+                    top: .5rem;
+                    width: 2.5rem;
                     transition: $transition;
                 }
 
                 span {
                     font-family: $font-logo;
-                    text-transform: capitalize;
-                    color: $primary-color;
+                    color: $white-color;
                     font-size: 2rem;
-                    font-weight: 1000;
+                    font-weight: 900;
                     letter-spacing: 1px;
                 }
 
@@ -44,7 +40,7 @@
 
             .nav__list {
 
-                .nav__link {
+                .link-name {
                     display: inline-block;
                     padding: 1rem 2rem;
                     font-size: 1.2rem;
@@ -58,7 +54,7 @@
                     }
                 }
 
-                .nav__link-user {
+                .nav__link-user, .link-icon {
                     display: none;
                 }
             }
@@ -103,16 +99,12 @@
 
             }
 
-            .open-btn, .close-btn {
-                display: none;
-                color: $white-color;
-                font-size: 2.2rem;
-            }
 
         }
     }
 
 }
+
 
 
 /*==========Media Query==========*/
@@ -121,16 +113,9 @@
         box-shadow: none;
     
         .navbar {
-            
+
             .container {
-                padding: 0 1rem;
-    
-                .logo {
-    
-                    img {
-                        left: 5.6rem;
-                    }
-                }
+                justify-content: center;
     
                 .icons {
                     display: none;
@@ -138,32 +123,27 @@
 
                 .nav__list {
                     position: fixed;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    top: 4rem;
-                    right: -100%;
+                    justify-content: space-around;
+                    bottom: 0;
+                    margin: 0 auto;
                     width: 100%;
-                    width: 100%;
-                    max-width: 14rem;
-                    padding: 1rem;
-                    border-bottom-left-radius: 1rem;
+                    padding: .7rem;
                     background: $text-color;
                     transition: $transition;
                     z-index: 999;
 
-                    &.active {
-                        right: 0;
+                    .link-icon {
+                        display: block;
+                        color: $white-color;
                     }
 
-                    .nav__link {
-                        font-size: 1.2rem;
+                    .link-name {
+                        display: none;
                     }
                 }
-    
-                .open-btn {
-                    display: block;
-                }    
+      
             }
         }
     }
 }
+
