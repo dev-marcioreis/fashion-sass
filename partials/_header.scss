@@ -86,7 +86,7 @@
 .header .open-btn, .header .close-btn {
     display: none;
     color: $white-color;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 
@@ -103,19 +103,23 @@
         flex-direction: column;
         align-items: flex-start;
         top: 4rem;
-        right: 0;
+        right: -100%;
         width: 100%;
         width: 100%;
-        max-width: 15rem;
+        max-width: 14rem;
         padding: 1rem;
+        border-bottom-left-radius: 1rem;
         background: $text-color;
         transition: $transition;
         z-index: 999;
     }
+    .header .navbar .container .nav__list.active {
+        right: 0;
+    }
     .header .navbar .container .nav__list .nav__link {
         font-size: 1.2rem;
     }
-    .header .close-btn {
+    .header .open-btn {
         display: block;
     }
     
