@@ -28,15 +28,18 @@ body {
     text-align: center;
     margin-block-end: 3rem;
  
-    span{
-       font-size: 1.7rem;
-       letter-spacing: -1px;
-       color: $orange-color;
-       font-weight: 300;
+    span {
+       font-size: 1.1rem;
+       color: $primary-color;
+       font-weight: 200;
+       letter-spacing: 3px;
+       text-transform: uppercase;
     }
  
-    h3{
-       font-size: 2rem;
+    h3 {
+       font-size: 1.7rem;
+       font-weight: 500;
+       margin-block-start: 1rem; 
     }
 }
 img {
@@ -47,8 +50,8 @@ h1, h2, h3, h4, h5 {
     line-height: 1.2;
     font-weight: 500;
 }
-section {
-    padding: 5rem 5rem;
+.section {
+    padding: 2rem 0;
     overflow: hidden;
 }
 a {

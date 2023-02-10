@@ -1,18 +1,10 @@
 .hero {
-    height: 100vh;
+    overflow-x: hidden;
+    height: auto;
     background: $gradient;
-
-    .circle {
-        position: absolute;
-        bottom: 0;
-        right: -12rem;
-        filter: blur(100px);
-        border-radius: 50%;
-        width: 400px;
-        height: 400px;
-        opacity: .8;
-        background: $white-color;
-    }
+    box-shadow: $shadow1;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
 
     .container {
         display: flex;
@@ -20,19 +12,20 @@
         justify-content: center;
 
         .hero-info {
-            margin-block-start: 10rem;
+            margin-block-start: 8rem;
+            margin-left: 5rem;
             text-align: center;
 
             .hero-subtitle {
-                margin-block-end: -1.5rem;
+                margin-block-end: -1rem;
                 color: $primary-color;
-                font-size: 1.5rem;
+                font-size: 1.4rem;
                 font-weight: 500;
             }
     
             .hero-title {
                 font-family: $font-logo;
-                font-size: 7rem;
+                font-size: 6rem;
                 font-weight: 900;
                 text-transform: uppercase;
                 background-image: linear-gradient(to top, $red-color 0%, $orange-color 100%);
@@ -42,8 +35,8 @@
             }
     
             .hero-text {
-                margin-block-start: -2rem;
-                font-size: 1.7rem;
+                margin-block-start: -1rem;
+                font-size: 1.4rem;
                 font-weight: 200;
                 color: $white-color;
             }
@@ -51,7 +44,7 @@
             .btn {
                 background: $red-color;
                 border-radius: 5rem;
-                font-size: 1.1rem;
+                font-size: 1rem;
                 font-weight: 200;
                 text-transform: capitalize;
                 letter-spacing: .3rem;
@@ -59,7 +52,8 @@
         }
 
         .hero-image {
-            width: 50%;
+            margin-block-start: 3rem;
+            width: 65%;
             filter: contrast(1.5);
         }
     }
@@ -70,44 +64,38 @@
 @media (max-width: 1024px) {
     .hero {
     
-        .circle {
-            bottom: -5rem;
-            right: -15rem;
-        }
-    
         .container {
             flex-direction: column;
             align-items: center;
     
             .hero-info {
-                margin-block-start: 2rem;
+                margin-block-start: 6rem;
+                margin-left: 0;
     
                 .hero-subtitle {
-                    margin-block-end: -1rem;
-                    font-size: 1.3rem;
+                    font-size: 1.2rem;
                 }
         
                 .hero-title {
                     font-size: 5rem;
-                    letter-spacing: .5rem;
                 }
         
                 .hero-text {
-                    margin-block-start: -1.2rem;
-                    font-size: 1.4rem;
+                    font-size: 1.2rem;
                 }
         
                 .btn {
-                    font-size: 1rem;
+                    font-size: .9rem;
                 }
             }
     
             .hero-image {
+                margin-block-start: -1rem;
                 width: 100%;
             }
         }
     }
-    
+
 }
 
 
@@ -115,39 +103,27 @@
 @media (max-width: 768px) {
     .hero {
     
-        .circle {
-            bottom: -7rem;
-            right: -17rem;
-        }
-    
         .container {
     
             .hero-info {
-                margin-block-start: 1.5rem;
+                margin-block-start: 5rem;
     
                 .hero-subtitle {
-                    margin-block-end: -1rem;
                     font-size: 1rem;
                 }
         
                 .hero-title {
                     font-size: 4rem;
-                    letter-spacing: .1rem;
                 }
         
                 .hero-text {
-                    margin-block-start: -1rem;
                     font-size: 1rem;
                 }
-        
-                .btn {
-                    border-radius: .5rem;
-                    font-size: .9rem;
-                    letter-spacing: .2rem;
-                }
             }
-
+    
+            .hero-image {
+                margin-block-start: 1rem;
+            }
         }
     }
-    
 }
