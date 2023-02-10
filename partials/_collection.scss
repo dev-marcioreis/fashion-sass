@@ -308,3 +308,23 @@
     }
 
 }
+
+
+/*==========Media Query==========*/
+@media (max-width: 400px) {
+    .collection {
+
+        .products {
+            padding: 1rem;
+    
+            .container {
+                grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    
+                .product-box {
+                    width: 18rem;
+                }
+            }
+        }
+    }
+
+}
