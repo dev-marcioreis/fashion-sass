@@ -39,201 +39,42 @@
             }
 
             .active-sneaker {
-                background: $light-blue;
+                background: $primary-color;
                 color: $white-color;
             }
         }
     }
 
     .products {
-        padding: 1rem 0;
+        padding: 1rem 2rem;
 
         .container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-            place-items: center;
-            gap: 1rem;
 
             .product-box {
-                overflow: hidden;
-                background: $gradient;
-                box-shadow: $shadow1;
-                border-radius: .5rem;
-                padding: 0 1rem 1rem;
-
-                .product-top {
-                    position: relative;
-                    align-items: center;
-                    justify-content: center;
-
-                    .product-image {
-                        width: 10rem;
-                        height: 10rem;
-
-                        img {
-                            object-fit: contain;
-                            width: 100%;
-                            height: 100%;
-                            filter: contrast(1.5);
-                            transform: scale(1.1);
-                            transition: $transition;
-                            
-                            &:hover {
-                                transform: rotate(-10deg) scale(1.2);
-                            }
-                        }
-                    }
-
-                    .product-icon {
-                        position: absolute;
-                        top: 1rem;
-                        right: 0;
-                        cursor: pointer;
-
-                        i {
-                            font-size: 1.5rem;
-                            color: $red-color;
-                        }
-                    }
-                }
-
-                .product-bottom {
-                    text-align: center;
-                    
-                    h1 {
-                        font-size: 1.2rem;
-                        font-weight: 700;
-                        letter-spacing: 1px;
-                        text-transform: capitalize;
-                        color: $text-color;
-                    }
-
-                    .product-tating {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        gap: .7rem;
-                        margin-block-start: -.7rem;
-                        margin-block-end: 1.5rem;
-
-                        i {
-                            font-size: .9rem;
-                            color: $white-color;
-                        }
-                    }
-
-                    .product-price {
-                        display: flex;
-                        align-items: baseline;
-                        justify-content: space-between;
-
-                        .price {
-                            font-size: 1.2rem;
-                            font-weight: 700;
-                            color: $white-color;
-                            padding: .5rem .4rem;
-                        }
-
-                        .btn {
-                            background: $border-color;
-                            color: $white-color;
-                            padding: .5rem .4rem;
-                            font-size: .8rem;
-                            text-transform: uppercase;
-                            letter-spacing: 1px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-
-/*==========Media Query==========*/
-@media (max-width: 1024px) {
-    .collection {
-
-        .products {
-            padding: 1rem 0;
-    
-            .container {
-                grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    
-                .product-box {
-    
-                    .product-bottom {
-                       
-                        .product-price {
-    
-                            .price {
-                                font-size: .9rem;
-                                padding: .3rem .3rem;
-                            }
-    
-                            .btn {
-                                padding: .3rem .3rem;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-}
-
-
-/*==========Media Query==========*/
-@media (max-width: 768px) {
-    .collection {
-
-        .container {
-
-            .collection__filter {
                 display: grid;
-                grid-template-columns: 1fr 1fr;
-                gap: .7rem;
-                text-align: center;
-    
-                div {
-    
-                    &:hover {
-                        transform: scale(0);
-                    }
-                }
-            }
-        }
-    
-        .products {
-            padding: 1rem 0;
-    
-            .container {
-                grid-template-columns: repeat(auto-fit, minmax(220px, auto));
-    
-                .product-box {
+                grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+                place-items: center;
+                gap: 1rem;
+
+                .product-content {
                     overflow: hidden;
                     background: $gradient;
                     box-shadow: $shadow1;
                     border-radius: .5rem;
                     padding: 0 1rem 1rem;
-    
+
                     .product-top {
                         position: relative;
                         align-items: center;
                         justify-content: center;
-    
+
                         .product-image {
-                            width: 10rem;
-                            height: 10rem;
-    
+                            width: 100%;
+                            height: 100%;
+                            padding: 1rem;
+
                             img {
-                                object-fit: contain;
-                                width: 100%;
-                                height: 100%;
                                 filter: contrast(1.5);
-                                transform: scale(1.1);
                                 transition: $transition;
                                 
                                 &:hover {
@@ -241,7 +82,7 @@
                                 }
                             }
                         }
-    
+
                         .product-icon {
                             position: absolute;
                             top: 1rem;
@@ -254,24 +95,24 @@
                             }
                         }
                     }
-    
+
                     .product-bottom {
                         text-align: center;
-                        
-                        h1 {
+
+                        h4 {
                             font-size: 1.2rem;
                             font-weight: 700;
                             letter-spacing: 1px;
                             text-transform: capitalize;
-                            color: $text-color;
+                            color: $text-color; 
                         }
-    
+
                         .product-tating {
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             gap: .7rem;
-                            margin-block-start: -.7rem;
+                            margin-block-start: .5rem;
                             margin-block-end: 1.5rem;
     
                             i {
@@ -279,19 +120,19 @@
                                 color: $white-color;
                             }
                         }
-    
+
                         .product-price {
                             display: flex;
                             align-items: baseline;
                             justify-content: space-between;
-    
+
                             .price {
                                 font-size: 1.2rem;
                                 font-weight: 700;
                                 color: $white-color;
                                 padding: .5rem .4rem;
                             }
-    
+
                             .btn {
                                 background: $border-color;
                                 color: $white-color;
@@ -306,25 +147,94 @@
             }
         }
     }
-
 }
 
 
+
 /*==========Media Query==========*/
-@media (max-width: 540px) {
+@media (max-width: 768px) {
     .collection {
 
+        .container {
+
+            .headers {
+    
+                .title {
+                    font-size: .8rem;
+                }
+    
+                h3 {
+                   font-size: 1.1rem;
+                }
+            }
+    
+            .collection__filter {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: .7rem;
+                text-align: center;
+    
+                div {
+                    font-size: .9rem;
+                    letter-spacing: .2rem;
+    
+                    &:hover {
+                        transform: scale(0);
+                    }
+                }
+            }
+        }
+
         .products {
-            padding: 1rem;
-    
+            padding: 1rem 0;
+
             .container {
-                grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    
+
                 .product-box {
-                    width: 18rem;
+                    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    
+                    .product-content {
+    
+                        .product-top {
+    
+                            .product-icon {
+        
+                                i {
+                                    font-size: 1.3rem;
+                                }
+                            }
+                        }
+    
+                        .product-bottom {
+    
+                            h4 {
+                                font-size: 1.1rem;
+                            }
+    
+                            .product-tating {
+        
+                                i {
+                                    font-size: .8rem;
+                                }
+                            }
+    
+                            .product-price {
+    
+                                .price {
+                                    font-size: 1rem;
+                                }
+    
+                                .btn {
+                                    font-size: .7rem;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
     }
 
 }
+
+
