@@ -28,14 +28,14 @@ const displayProductItems = items => {
         ` <div class="product-content">
             <div class="product-top flex1">
                 <div class="product-image">
-                    <img src=${product.url} alt=${product.title}>
+                    <img src=${product.img} alt=${product.name}>
                 </div>
                 <div class="product-icon">
                     <i class="uil uil-heart"></i>
                 </div>
             </div>
             <div class="product-bottom">
-                <h4>${product.title}</h4>
+                <h4>${product.name}</h4>
                 <div class="product-tating">
                     <i class="uil uil-star"></i>
                     <i class="uil uil-star"></i>

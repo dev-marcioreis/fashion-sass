@@ -1,39 +1,78 @@
 {
+
   "products": [
+
     {
       "id": 1,
-      "title": "nike black",
+      "name": "nike black",
       "price": "199,90",
-      "url": "./assets/productsImg/product1.png",
+      "img": "./assets/sneakers/product1.png",
       "category": "filter-sneaker"
     },
     {
       "id": 2,
-      "title": "nike yellow",
+      "name": "nike yellow",
       "price": "299,90",
-      "url": "./assets/productsImg/product2.png",
+      "img": "./assets/sneakers/product2.png",
       "category": "filter-sneaker"
     },
     {
       "id": 3,
-      "title": "nike red",
+      "name": "nike red",
       "price": "399,90",
-      "url": "./assets/productsImg/product3.png",
+      "img": "./assets/sneakers/product3.png",
       "category": "filter-sneaker"
     },
     {
       "id": 4,
-      "title": "nike leopard",
+      "name": "nike leopard",
       "price": "99,90",
-      "url": "./assets/productsImg/product4.png",
+      "img": "./assets/sneakers/product4.png",
       "category": "filter-sneaker"
     },
     {
       "id": 5,
-      "title": "nike light",
+      "name": "nike light",
       "price": "159,90",
-      "url": "./assets/productsImg/product5.png",
+      "img": "./assets/sneakers/product5.png",
+      "category": "filter-sneaker"
+    },
+    {
+      "id": 6,
+      "name": "nike colors",
+      "price": "759,90",
+      "img": "./assets/sneakers/product6.png",
+      "category": "filter-sneaker"
+    },
+    {
+      "id": 7,
+      "name": "nike all",
+      "price": "899,90",
+      "img": "./assets/sneakers/product7.png",
+      "category": "filter-sneaker"
+    },
+    {
+      "id": 8,
+      "name": "nike grey",
+      "price": "639,90",
+      "img": "./assets/sneakers/product8.png",
+      "category": "filter-sneaker"
+    },
+    {
+      "id": 9,
+      "name": "nike white",
+      "price": "319,90",
+      "img": "./assets/sneakers/product9.png",
+      "category": "filter-sneaker"
+    },
+    {
+      "id": 10,
+      "name": "nike supper",
+      "price": "999,90",
+      "img": "./assets/sneakers/product10.png",
       "category": "filter-sneaker"
     }
+
   ]
+
 }
