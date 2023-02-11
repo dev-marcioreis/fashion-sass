@@ -25,27 +25,31 @@ window.addEventListener('DOMContentLoaded', async function() {
 const displayProductItems = items => {
     let displayProduct = items.map(product => 
 
-        ` <div class="product-top flex1">
-            <div class="product-image">
-                <img src=${product.url} alt=${product.title}>
+        ` <div class="product-content">
+            <div class="product-top flex1">
+                <div class="product-image">
+                    <img src=${product.url} alt=${product.title}>
+                </div>
+                <div class="product-icon">
+                    <i class="uil uil-heart"></i>
+                </div>
             </div>
-            <div class="product-icon">
-                <i class="uil uil-heart"></i>
+            <div class="product-bottom">
+                <h4>${product.title}</h4>
+                <div class="product-tating">
+                    <i class="uil uil-star"></i>
+                    <i class="uil uil-star"></i>
+                    <i class="uil uil-star"></i>
+                    <i class="uil uil-star"></i>
+                    <i class="uil uil-star"></i>
+                </div>
+                <div class="product-price">
+                    <div class="price">R$ ${product.price}</div>
+                    <button class="btn">comprar</button>
+                </div>
             </div>
-         </div>
-         <div class="product-bottom">
-            <h1>${product.title}</h1>
-            <div class="product-tating">
-                <i class="uil uil-star"></i>
-                <i class="uil uil-star"></i>
-                <i class="uil uil-star"></i>
-                <i class="uil uil-star"></i>
-                <i class="uil uil-star"></i>
-            </div>
-            <div class="product-price">
-                <div class="price">R$ ${product.price}</div>
-            </div>
-         </div> `
+         </div> 
+        `
     );
 
     displayProduct = displayProduct.join("")

@@ -2,8 +2,8 @@
   "products": [
     {
       "id": 1,
-      "title": "Nike Air",
-      "price": "130",
+      "title": "nike black",
+      "price": "199,90",
       "url": "./assets/productsImg/product1.png",
       "category": "filter-sneaker"
     },
@@ -11,28 +11,28 @@
       "id": 2,
       "title": "Nike Air",
       "price": "130",
-      "url": "./assets/productsImg/product1.png",
+      "url": "./assets/productsImg/product2.png",
       "category": "filter-sneaker"
     },
     {
       "id": 3,
       "title": "Nike Air",
       "price": "130",
-      "url": "./assets/productsImg/product1.png",
+      "url": "./assets/productsImg/product3.png",
       "category": "filter-sneaker"
     },
     {
       "id": 4,
       "title": "Nike Air",
       "price": "130",
-      "url": "./assets/productsImg/product1.png",
+      "url": "./assets/productsImg/product4.png",
       "category": "filter-sneaker"
     },
     {
       "id": 5,
       "title": "Nike Air",
       "price": "130",
-      "url": "./assets/productsImg/product1.png",
+      "url": "./assets/productsImg/product5.png",
       "category": "filter-sneaker"
     },
     {
