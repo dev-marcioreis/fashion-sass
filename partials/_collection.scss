@@ -39,7 +39,7 @@
             }
 
             .active {
-                background: $gradient;
+                background: $primary-color;
                 color: $white-color;
             }
         }
@@ -84,9 +84,9 @@
                 }
 
                 .product-content {
-                    background: $gradient;
+                    background: $border-color;
                     box-shadow: $shadow1;
-                    border-radius: .5rem;
+                    border-radius: 1rem;
                     padding: 1.2rem;
                     min-height: 100%;
                     scroll-snap-align: start;
