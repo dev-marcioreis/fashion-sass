@@ -116,8 +116,8 @@
 
                         .product-icon {
                             position: absolute;
-                            top: 1rem;
-                            right: 0;
+                            top: .2rem;
+                            right: -.2rem;
                             cursor: pointer;
     
                             i {
@@ -224,6 +224,16 @@
                 .product-box {
     
                     .product-content {
+
+                        .product-top {
+    
+                            .product-image {
+    
+                                img {
+                                    transform: rotate(-10deg) scale(1.2);
+                                }
+                            }
+                        }
     
                         .product-bottom {
     
