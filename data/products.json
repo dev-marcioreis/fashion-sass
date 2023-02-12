@@ -141,6 +141,62 @@
       "price": "1299,90",
       "img": "./assets/tech/product10.png",
       "category": "filter-tech"
+    },
+    {
+      "id": 21,
+      "name": "watch",
+      "price": "199,90",
+      "img": "./assets/accessories/product1.png",
+      "category": "filter-accessories"
+    },
+    {
+      "id": 22,
+      "name": "fone",
+      "price": "299,90",
+      "img": "./assets/accessories/product2.png",
+      "category": "filter-accessories"
+    },
+    {
+      "id": 23,
+      "name": "watch",
+      "price": "199,90",
+      "img": "./assets/accessories/product3.png",
+      "category": "filter-accessories"
+    },
+    {
+      "id": 24,
+      "name": "fone sem fio",
+      "price": "59,90",
+      "img": "./assets/accessories/product4.png",
+      "category": "filter-accessories"
+    },
+    {
+      "id": 25,
+      "name": "fone two",
+      "price": "799,90",
+      "img": "./assets/accessories/product5.png",
+      "category": "filter-accessories"
+    },
+    {
+      "id": 26,
+      "name": "new fone",
+      "price": "699,90",
+      "img": "./assets/accessories/product6.png",
+      "category": "filter-accessories"
+    },
+    {
+      "id": 27,
+      "name": "watch",
+      "price": "199,90",
+      "img": "./assets/accessories/product7.png",
+      "category": "filter-accessories"
+    },
+    {
+      "id": 28,
+      "name": "supper fone",
+      "price": "1499,90",
+      "img": "./assets/accessories/product8.png",
+      "category": "filter-accessories"
     }
 
   ]
