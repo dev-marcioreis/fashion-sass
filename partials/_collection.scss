@@ -46,22 +46,50 @@
     }
 
     .products {
-        padding: 1rem 0;
+        padding: 1rem 4rem;
+
 
         .container {
 
             .product-box {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-                place-items: center;
-                gap: 1rem;
+                display: flex;
+                gap: 2rem;
+                overflow-x: scroll;
+                overflow-y: none;
+                scroll-snap-type: inline mandatory;
+                padding-block-end: 1.2rem;
+                margin-block-end: -1.2rem;
+
+                &::-webkit-scrollbar {
+                    height: .8rem;
+                 }
+                
+                 &::-webkit-scrollbar-track {
+                    background: $white-color;
+                    border: 1px solid $primary-color;
+                    border-radius: 5rem;
+                 }
+                
+                 &::-webkit-scrollbar-thumb {
+                    background: $gradient;
+                    border-radius: 5rem;
+                 }
+
+                 &::-webkit-scrollbar-thumb:hover {
+                    background: $primary-color;
+                }
+
+                &::-webkit-scrollbar-button {
+                    width: 20%;
+                }
 
                 .product-content {
-                    overflow: hidden;
                     background: $gradient;
                     box-shadow: $shadow1;
                     border-radius: .5rem;
-                    padding: 0 1rem 1rem;
+                    padding: 1.2rem;
+                    min-height: 100%;
+                    scroll-snap-align: start;
 
                     .product-top {
                         position: relative;
@@ -155,7 +183,7 @@
 
 
 /*==========Media Query==========*/
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .collection {
 
         .container {
@@ -189,45 +217,25 @@
         }
 
         .products {
-            padding: 1rem 0;
-
+            padding: 1rem;
+    
             .container {
-
+    
                 .product-box {
-                    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     
                     .product-content {
-    
-                        .product-top {
-
-                            .product-image {
-    
-                                img {
-                                    
-                                    &:hover {
-                                        transform: rotate(0deg) scale(1);
-                                    }
-                                }
-                            }
-    
-                            .product-icon {
-        
-                                i {
-                                    font-size: 1.3rem;
-                                }
-                            }
-                        }
     
                         .product-bottom {
     
                             h4 {
-                                font-size: 1.1rem;
+                                font-size: 1rem;
                             }
     
                             .product-tating {
         
                                 i {
                                     font-size: .8rem;
+
                                 }
                             }
     
@@ -236,10 +244,6 @@
                                 .price {
                                     font-size: 1rem;
                                 }
-    
-                                .btn {
-                                    font-size: .7rem;
-                                }
                             }
                         }
                     }
@@ -247,27 +251,28 @@
             }
         }
     }
-
+    
 }
 
 
 /*==========Media Query==========*/
-@media (max-width: 613px) {
+@media (max-width: 768px) {
     .collection {
 
         .products {
-
-            .container {
-
-                .product-box {
-                    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+            padding: 1rem 0;
     
+            .container {
+    
+                .product-box {
+                    gap: 1rem;
+
                     .product-content {
     
                         .product-top {
-
+    
                             .product-image {
-                                width: 15rem;
+                                width: 11rem;
                             }
                         }
                     }
@@ -275,4 +280,8 @@
             }
         }
     }
+    
 }
+
+
+
