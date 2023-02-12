@@ -71,6 +71,76 @@
       "price": "999,90",
       "img": "./assets/sneakers/product10.png",
       "category": "filter-sneaker"
+    },
+    {
+      "id": 11,
+      "name": "caixa de som",
+      "price": "199,90",
+      "img": "./assets/tech/product1.png",
+      "category": "filter-tech"
+    },
+    {
+      "id": 12,
+      "name": "ipad pro",
+      "price": "899,90",
+      "img": "./assets/tech/product2.png",
+      "category": "filter-tech"
+    },
+    {
+      "id": 13,
+      "name": "iphone",
+      "price": "1999,90",
+      "img": "./assets/tech/product3.png",
+      "category": "filter-tech"
+    },
+    {
+      "id": 14,
+      "name": "light",
+      "price": "99,90",
+      "img": "./assets/tech/product4.png",
+      "category": "filter-tech"
+    },
+    {
+      "id": 15,
+      "name": "mac book",
+      "price": "4999,90",
+      "img": "./assets/tech/product5.png",
+      "category": "filter-tech"
+    },
+    {
+      "id": 16,
+      "name": "mouse",
+      "price": "109,90",
+      "img": "./assets/tech/product6.png",
+      "category": "filter-tech"
+    },
+    {
+      "id": 17,
+      "name": "joystick",
+      "price": "399,90",
+      "img": "./assets/tech/product7.png",
+      "category": "filter-tech"
+    },
+    {
+      "id": 18,
+      "name": "ipod",
+      "price": "599,90",
+      "img": "./assets/tech/product8.png",
+      "category": "filter-tech"
+    },
+    {
+      "id": 19,
+      "name": "ipad",
+      "price": "499,90",
+      "img": "./assets/tech/product9.png",
+      "category": "filter-tech"
+    },
+    {
+      "id": 20,
+      "name": "apple",
+      "price": "1299,90",
+      "img": "./assets/tech/product10.png",
+      "category": "filter-tech"
     }
 
   ]

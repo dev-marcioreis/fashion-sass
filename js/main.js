@@ -52,6 +52,35 @@ const displayProductItems = items => {
         `
     );
 
-    displayProduct = displayProduct.join("")
+    displayProduct = displayProduct.join("");
     ProductWrapper.innerHTML = displayProduct;
 }
+
+
+const filters = [...document.querySelectorAll('.collection__filter div')]
+
+filters.forEach(filterCategory => {
+
+    filters[0].classList.add('active')
+
+    filterCategory.addEventListener('click', async e => {
+
+        const id = e.target.getAttribute('data-filter')
+        const target = e.target
+        const products = await getProducts()
+
+        filters.forEach(btn => {
+            btn.classList.remove('active')
+        })
+
+        target.classList.add('active')
+
+        let menuCategory = products.filter(product => {
+            if(product.category === id) {
+                return product;
+            }
+        })
+
+        displayProductItems(menuCategory)
+    })
+})
