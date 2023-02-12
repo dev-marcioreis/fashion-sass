@@ -197,6 +197,55 @@
       "price": "1499,90",
       "img": "./assets/accessories/product8.png",
       "category": "filter-accessories"
+    },
+    {
+      "id": 29,
+      "name": "sapato",
+      "price": "99,90",
+      "img": "./assets/footwear/product1.png",
+      "category": "filter-footwear"
+    },
+    {
+      "id": 30,
+      "name": "sapato",
+      "price": "99,90",
+      "img": "./assets/footwear/product2.png",
+      "category": "filter-footwear"
+    },
+    {
+      "id": 31,
+      "name": "sapato",
+      "price": "99,90",
+      "img": "./assets/footwear/product3.png",
+      "category": "filter-footwear"
+    },
+    {
+      "id": 32,
+      "name": "sapato",
+      "price": "99,90",
+      "img": "./assets/footwear/product4.png",
+      "category": "filter-footwear"
+    },
+    {
+      "id": 33,
+      "name": "sapato",
+      "price": "99,90",
+      "img": "./assets/footwear/product5.png",
+      "category": "filter-footwear"
+    },
+    {
+      "id": 34,
+      "name": "sapato",
+      "price": "99,90",
+      "img": "./assets/footwear/product6.png",
+      "category": "filter-footwear"
+    },
+    {
+      "id": 35,
+      "name": "sapato",
+      "price": "99,90",
+      "img": "./assets/footwear/product7.png",
+      "category": "filter-footwear"
     }
 
   ]
