@@ -3,7 +3,7 @@
 
     .new-content {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+        grid-template-columns: repeat(auto-fit, minmax(320px, auto));
         place-items: center;
         gap: 2rem;
 
@@ -47,7 +47,7 @@
     
         .new-content {
             padding: 0 1rem;
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(auto-fit, minmax(300px, auto));
             gap: 1rem;
     
             .content {
@@ -71,6 +71,7 @@
     .new {
     
         .new-content {
+            grid-template-columns: 1fr;
 
             .content {
     
