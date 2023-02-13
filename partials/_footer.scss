@@ -51,6 +51,19 @@
                     }
                 }
             }
+
+            .footer-contact {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                margin-block-end: 2rem;
+
+                h4 {
+                    font-weight: 700;
+                    margin-block-end: .2rem;
+                    text-transform: capitalize;
+                }
+            }
         }
 
         .footer-bottom  {
