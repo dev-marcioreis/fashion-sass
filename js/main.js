@@ -18,7 +18,7 @@ const ProductWrapper = document.getElementById('products');
 window.addEventListener('DOMContentLoaded', async function() {
     let products = await getProducts();
 
-    products = products.filter(product => product.category === 'filter-sneaker');
+    products = products.filter(product => product.category === 'sneakers');
     displayProductItems(products);
     loadData();
 });

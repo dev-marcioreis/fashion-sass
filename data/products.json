@@ -7,140 +7,140 @@
       "name": "nike black",
       "price": "199,90",
       "img": "./assets/sneakers/product1.png",
-      "category": "filter-sneaker"
+      "category": "sneakers"
     },
     {
       "id": 2,
       "name": "nike yellow",
       "price": "299,90",
       "img": "./assets/sneakers/product2.png",
-      "category": "filter-sneaker"
+      "category": "sneakers"
     },
     {
       "id": 3,
       "name": "nike red",
       "price": "399,90",
       "img": "./assets/sneakers/product3.png",
-      "category": "filter-sneaker"
+      "category": "sneakers"
     },
     {
       "id": 4,
       "name": "nike leopard",
       "price": "99,90",
       "img": "./assets/sneakers/product4.png",
-      "category": "filter-sneaker"
+      "category": "sneakers"
     },
     {
       "id": 5,
       "name": "nike light",
       "price": "159,90",
       "img": "./assets/sneakers/product5.png",
-      "category": "filter-sneaker"
+      "category": "sneakers"
     },
     {
       "id": 6,
       "name": "nike colors",
       "price": "759,90",
       "img": "./assets/sneakers/product6.png",
-      "category": "filter-sneaker"
+      "category": "sneakers"
     },
     {
       "id": 7,
       "name": "nike all",
       "price": "899,90",
       "img": "./assets/sneakers/product7.png",
-      "category": "filter-sneaker"
+      "category": "sneakers"
     },
     {
       "id": 8,
       "name": "nike grey",
       "price": "639,90",
       "img": "./assets/sneakers/product8.png",
-      "category": "filter-sneaker"
+      "category": "sneakers"
     },
     {
       "id": 9,
       "name": "nike white",
       "price": "319,90",
       "img": "./assets/sneakers/product9.png",
-      "category": "filter-sneaker"
+      "category": "sneakers"
     },
     {
       "id": 10,
       "name": "nike supper",
       "price": "999,90",
       "img": "./assets/sneakers/product10.png",
-      "category": "filter-sneaker"
+      "category": "sneakers"
     },
     {
       "id": 11,
       "name": "caixa de som",
       "price": "199,90",
       "img": "./assets/tech/product1.png",
-      "category": "filter-tech"
+      "category": "tech"
     },
     {
       "id": 12,
       "name": "ipad pro",
       "price": "899,90",
       "img": "./assets/tech/product2.png",
-      "category": "filter-tech"
+      "category": "tech"
     },
     {
       "id": 13,
       "name": "iphone",
       "price": "1999,90",
       "img": "./assets/tech/product3.png",
-      "category": "filter-tech"
+      "category": "tech"
     },
     {
       "id": 14,
       "name": "light",
       "price": "99,90",
       "img": "./assets/tech/product4.png",
-      "category": "filter-tech"
+      "category": "tech"
     },
     {
       "id": 15,
       "name": "mac book",
       "price": "4999,90",
       "img": "./assets/tech/product5.png",
-      "category": "filter-tech"
+      "category": "tech"
     },
     {
       "id": 16,
       "name": "mouse",
       "price": "109,90",
       "img": "./assets/tech/product6.png",
-      "category": "filter-tech"
+      "category": "tech"
     },
     {
       "id": 17,
       "name": "joystick",
       "price": "399,90",
       "img": "./assets/tech/product7.png",
-      "category": "filter-tech"
+      "category": "tech"
     },
     {
       "id": 18,
       "name": "ipod",
       "price": "599,90",
       "img": "./assets/tech/product8.png",
-      "category": "filter-tech"
+      "category": "tech"
     },
     {
       "id": 19,
       "name": "ipad",
       "price": "499,90",
       "img": "./assets/tech/product9.png",
-      "category": "filter-tech"
+      "category": "tech"
     },
     {
       "id": 20,
       "name": "apple",
       "price": "1299,90",
       "img": "./assets/tech/product10.png",
-      "category": "filter-tech"
+      "category": "tech"
     },
     {
       "id": 21,
@@ -154,100 +154,51 @@
       "name": "fone",
       "price": "299,90",
       "img": "./assets/accessories/product2.png",
-      "category": "filter-accessories"
+      "category": "accessories"
     },
     {
       "id": 23,
       "name": "watch",
       "price": "199,90",
       "img": "./assets/accessories/product3.png",
-      "category": "filter-accessories"
+      "category": "accessories"
     },
     {
       "id": 24,
       "name": "fone sem fio",
       "price": "59,90",
       "img": "./assets/accessories/product4.png",
-      "category": "filter-accessories"
+      "category": "accessories"
     },
     {
       "id": 25,
       "name": "fone two",
       "price": "799,90",
       "img": "./assets/accessories/product5.png",
-      "category": "filter-accessories"
+      "category": "accessories"
     },
     {
       "id": 26,
       "name": "new fone",
       "price": "699,90",
       "img": "./assets/accessories/product6.png",
-      "category": "filter-accessories"
+      "category": "accessories"
     },
     {
       "id": 27,
       "name": "watch",
       "price": "199,90",
       "img": "./assets/accessories/product7.png",
-      "category": "filter-accessories"
+      "category": "accessories"
     },
     {
       "id": 28,
       "name": "supper fone",
       "price": "1499,90",
       "img": "./assets/accessories/product8.png",
-      "category": "filter-accessories"
-    },
-    {
-      "id": 29,
-      "name": "sapato",
-      "price": "99,90",
-      "img": "./assets/footwear/product1.png",
-      "category": "filter-footwear"
-    },
-    {
-      "id": 30,
-      "name": "sapato",
-      "price": "99,90",
-      "img": "./assets/footwear/product2.png",
-      "category": "filter-footwear"
-    },
-    {
-      "id": 31,
-      "name": "sapato",
-      "price": "99,90",
-      "img": "./assets/footwear/product3.png",
-      "category": "filter-footwear"
-    },
-    {
-      "id": 32,
-      "name": "sapato",
-      "price": "99,90",
-      "img": "./assets/footwear/product4.png",
-      "category": "filter-footwear"
-    },
-    {
-      "id": 33,
-      "name": "sapato",
-      "price": "99,90",
-      "img": "./assets/footwear/product5.png",
-      "category": "filter-footwear"
-    },
-    {
-      "id": 34,
-      "name": "sapato",
-      "price": "99,90",
-      "img": "./assets/footwear/product6.png",
-      "category": "filter-footwear"
-    },
-    {
-      "id": 35,
-      "name": "sapato",
-      "price": "99,90",
-      "img": "./assets/footwear/product7.png",
-      "category": "filter-footwear"
+      "category": "accessories"
     }
-
+    
   ]
 
 }
