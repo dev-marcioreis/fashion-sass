@@ -2,19 +2,6 @@
 
     .container {
 
-        .headers {
-            margin-block-end: 2rem;
-
-            .title {
-                padding: .3rem 0;
-                border-bottom: 3px solid $border-color;
-            }
-
-            h3 {
-               text-transform: capitalize;
-            }
-        }
-
         .collection__filter {
             justify-content: center;
             gap: 1.5rem;
@@ -190,7 +177,7 @@
 
             .headers {
     
-                .title {
+                span {
                     font-size: .8rem;
                 }
     
@@ -222,6 +209,10 @@
             .container {
     
                 .product-box {
+
+                    &::-webkit-scrollbar {
+                        display: none;
+                     }
     
                     .product-content {
 
