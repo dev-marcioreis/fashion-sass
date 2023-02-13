@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', async function() {
     products = products.filter(product => product.category === 'filter-sneaker')
     displayProductItems(products)
     loadData()
-})
+});
 
 const displayProductItems = items => {
     let displayProduct = items.map(product => 
@@ -94,7 +94,7 @@ let currentIndex = 0;
 
 async function loadData() {
 
-    let maxResults = 4;
+    let maxResults = 35;
     let products = await getProducts()
 
     if(currentIndex >= products.length) {
@@ -108,22 +108,24 @@ async function loadData() {
         const product = products[i + currentIndex];
         categoriesProducts.insertAdjacentHTML('beforeend', 
 
-        `<div class="all-products">
-            <div>
-                <div class="shop-top flex1">
-                    <img src=${product.img} alt=${product.name}>
-                </div>
-                <div class="bottom-shop">
-                    <div class="flex1">
-                        <h4>${product.name}</h4>
-                        <a href="" class="btn">comprar</a>
+        `<div class="shop__products flex1">
+            <div class="all-products">
+                <div>
+                   <div class="shop-top flex1">
+                      <img src=${product.img} alt=${product.name}>
+                    </div>
+                    <div class="bottom-shop">
+                       <div class="flex1">
+                          <h4>${product.name}</h4>
+                          <a href="" class="btn">comprar</a>
+                       </div>
+                    </div>
+                    <div class="shop-price flex1">
+                        <div>R$ ${product.price}</div>
                     </div>
                 </div>
-                <div class="shop-price flex1">
-                    <div>R$ ${product.price}</div>
-                </div>
             </div>
-         </div>
+        </div>
          `
          )
     }
