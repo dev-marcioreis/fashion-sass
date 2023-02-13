@@ -92,6 +92,9 @@ p {
 /*==========Media Query==========*/
  @media (max-width: 1024px) {
     .headers {
+        text-align: center;
+        margin-block-start: .5rem;
+        margin-block-end: 3rem;
     
         span {
             font-size: .8rem;
