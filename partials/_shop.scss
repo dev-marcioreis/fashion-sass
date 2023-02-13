@@ -5,15 +5,15 @@
 
         .shop__products {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
             place-items: center;
 
-            .all-products {
+            .product {
                 overflow: hidden;
                 border: 1px solid hsla(0, 0%, 0%, 0.103);
                 border-radius: 1rem;
-                width: 100%;
+                width: 20rem;
                 background: $white-color;
                 box-shadow: $shadow1;
                 transition: $transition;
@@ -116,9 +116,9 @@
             padding: 0 1rem;
     
             .shop__products {
-                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     
-                .all-products {
+                .product {
                     width: 20rem;
                     
                     &:hover .shop-top{
@@ -174,7 +174,7 @@
             .shop__products {
                 grid-template-columns: 1fr;
     
-                .all-products {
+                .product {
                     width: 21rem;
                 }
             }
