@@ -1,6 +1,5 @@
 .new {
     padding: 1rem 4rem;
-    margin-block-end: 3rem;
 
     .new-content {
         display: grid;
@@ -47,6 +46,7 @@
         padding: 1rem 0;
     
         .new-content {
+            padding: 0 1rem;
             gap: 1rem;
     
             .content {
