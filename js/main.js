@@ -20,6 +20,7 @@ window.addEventListener('DOMContentLoaded', async function() {
 
     products = products.filter(product => product.category === 'filter-sneaker')
     displayProductItems(products)
+    loadData()
 })
 
 const displayProductItems = items => {
@@ -84,3 +85,50 @@ filters.forEach(filterCategory => {
         displayProductItems(menuCategory)
     })
 })
+
+
+const categoriesProducts = document.querySelector('.shop .shop__products')
+const loadMore = document.querySelector('.more-items')
+
+let currentIndex = 0;
+
+async function loadData() {
+
+    let maxResults = 4;
+    let products = await getProducts()
+
+    if(currentIndex >= products.length) {
+        loadMore.disabled = true;
+        loadMore.innerText = 'Não há mais produtos...'
+
+        return;
+    }
+
+    for(let i = 0; i < maxResults; i++) {
+        const product = products[i + currentIndex];
+        categoriesProducts.insertAdjacentHTML('beforeend', 
+
+        `<div class="all-products">
+            <div>
+                <div class="shop-top flex1">
+                    <img src=${product.img} alt=${product.name}>
+                </div>
+                <div class="bottom-shop">
+                    <div class="flex1">
+                        <h4>${product.name}</h4>
+                        <a href="" class="btn">comprar</a>
+                    </div>
+                </div>
+                <div class="shop-price flex1">
+                    <div>R$ ${product.price}</div>
+                </div>
+            </div>
+         </div>
+         `
+         )
+    }
+
+    currentIndex += maxResults;
+}
+
+loadMore.addEventListener('click', loadData)
