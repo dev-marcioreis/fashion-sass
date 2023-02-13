@@ -47,6 +47,7 @@
     
         .new-content {
             padding: 0 1rem;
+            grid-template-columns: 1fr;
             gap: 1rem;
     
             .content {
@@ -70,8 +71,6 @@
     .new {
     
         .new-content {
-            grid-template-columns: 1fr;
-            gap: 1rem;
 
             .content {
     
