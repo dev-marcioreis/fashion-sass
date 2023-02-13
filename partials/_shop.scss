@@ -1,0 +1,107 @@
+.shop {
+    padding: 0 4rem;
+
+    .container {
+
+        .shop__products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+
+            .all-products {
+                overflow: hidden;
+                border: 1px solid hsla(0, 0%, 0%, 0.103);
+                border-radius: 1rem;
+                width: 18rem;
+                background: $white-color;
+                box-shadow: $shadow1;
+                transition: $transition;
+                
+                &:hover .shop-top{
+                    background: $gradient;
+                }
+
+                .shop-top  {
+                    position: relative;
+                    height: 9rem;
+                    justify-content: center;
+                    padding: 1rem;
+                    background: $border-color;
+                    border-bottom-left-radius: 1rem;
+                    border-bottom-right-radius: 1rem;
+
+                    img {
+                        object-fit: contain;
+                        height: 100%;
+                    }
+                }
+
+                .bottom-shop {
+                    padding: 1rem;
+
+                    .flex1 {
+                        justify-content: space-between;
+                        align-items: baseline;
+
+                        h4 {
+                            font-size: 1.2rem;
+                            font-weight: 700;
+                            text-transform: capitalize;
+                        }
+    
+                        .btn {
+                            background: $border-color;
+                            color: $white-color;
+                            padding: .5rem;
+                            border-radius: .5rem;
+                            font-size: .9rem;
+                            font-weight: 700;
+                            letter-spacing: 1px;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+
+                .shop-price {
+                    justify-content: center;
+                    padding: 1rem 0;
+
+                    & div {
+                        font-size: 1.1rem;
+                        font-weight: 700;
+                        padding: .5rem;
+                        border-radius: .5rem;
+                        box-shadow: $shadow1;
+                        transition: $transition;
+                    }
+                }
+            }
+        }
+
+        .shop-bottom {
+            justify-content: center;
+            padding: 3rem 0;
+
+            .btn-more {
+                background: $border-color;
+                color: $text-color;
+                padding: .7rem;
+                border-radius: 5rem;
+                font-size: .9rem;
+                font-weight: 700;
+                letter-spacing: 1px;
+                text-transform: capitalize;
+                transition: $transition;
+
+                &:hover {
+                    background: $primary-color;
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+}
+
+
+/*==========Media Query==========*/
