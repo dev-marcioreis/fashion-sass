@@ -47,12 +47,13 @@
                         h4 {
                             font-size: 1.2rem;
                             font-weight: 700;
+                            color: $grey-color;
                             text-transform: capitalize;
                         }
     
                         .btn {
                             background: $border-color;
-                            color: $white-color;
+                            color: $grey-color;
                             padding: .5rem;
                             border-radius: .5rem;
                             font-size: .9rem;
@@ -70,6 +71,7 @@
                     & div {
                         font-size: 1.1rem;
                         font-weight: 700;
+                        color: $grey-color;
                         padding: .5rem;
                         border-radius: .5rem;
                         box-shadow: $shadow1;
@@ -85,7 +87,7 @@
 
             .btn-more {
                 background: $border-color;
-                color: $text-color;
+                color: $grey-color;
                 padding: .7rem;
                 border-radius: 5rem;
                 font-size: .9rem;
