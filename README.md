@@ -6,7 +6,7 @@ Loja de artigos masculinos, femininos e tecnologia.
 
 ## 🚀 Fanalizado.
 
-## 📋 Técnologias
+## 📋 Tecnologias
 SASS
 
 ## ✒️ Autor
